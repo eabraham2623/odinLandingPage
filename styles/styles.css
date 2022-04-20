@@ -34,3 +34,15 @@ body {
     list-style-type: none;
     gap: 10px;
 }
+
+.intro {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro img {
+    width: 300px;
+}
