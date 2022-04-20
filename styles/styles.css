@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;  
+    justify-content: space-between;
+}
+.header h3, 
+.header ul {
+    padding: 8px;
+    margin: 8px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
