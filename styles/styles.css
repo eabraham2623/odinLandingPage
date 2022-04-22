@@ -6,6 +6,7 @@ html {
   *, *::before, *::after {
     box-sizing: inherit;
     border: 0px;
+    font-family: Roboto, sans-serif;
   }
 
 body {
@@ -29,9 +30,6 @@ button {
     padding: 10px 25px;
 }
 
-.navy-section {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .content {
     display: flex;
     flex-direction: column;
@@ -82,4 +80,36 @@ button {
 .intro img {
     width: 400px;
 
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 20px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+}
+
+.picture-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.picture-section img {
+    width: 250px;
+    border-radius: 8px;
+    border: 4px solid #555;
+    vertical-align: bottom;
+}
+
+.img-and-text p{
+    max-width: 240px;
 }
