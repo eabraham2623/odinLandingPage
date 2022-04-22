@@ -5,6 +5,7 @@ html {
 
   *, *::before, *::after {
     box-sizing: inherit;
+    border: 0px;
   }
 
 body {
@@ -25,6 +26,7 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
+    padding: 10px 25px;
 }
 
 .navy-section {
@@ -76,14 +78,6 @@ button {
     background-color: #1F2937;
     gap: 30px;
 }
-
-.intro-text {
-    
-}
-
-.intro-text p {
-}
-
 
 .intro img {
     width: 400px;
