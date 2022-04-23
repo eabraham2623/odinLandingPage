@@ -176,3 +176,12 @@ button {
     font-size: 24px;
     margin: 12px 0px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 40px;
+}
